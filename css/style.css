@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+    background: #ffffff;
+    padding: 20px;
+}
+.container{
+    width: 1250px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+
+nav{
+    flex-basis: 80%;
+    max-width: 100%;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: 18px;
+}
+
+section{
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: top;
+}
+
+
+.section-1{
+	background-image: url(../images/portfolio-item1.jpg);
+	
+}
+
+.section-2{
+	background-image: url(../images/portfolio-item2.jpg);
+	
+}
+
+.section-3{
+	background-image: url(../images/portfolio-item3.jpg);
+	
+}
+
+.section-4{
+	background-image: url(../images/portfolio-item4.jpg);
+	
+}
+
+.section-5{
+	background-image: url(../images/portfolio-item5.jpg);
+	
+}
+
+.section-6{
+	background-image: url(../images/portfolio-item6.jpg);
+	
+}
+
+h1{
+    font-size: 40px;
+    color: #000000;
+    margin: auto;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #ffffff00;
+    padding: 75px 0;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+nav{
+	flex-basis: 80%;
+    max-width: 100%;
+}
+}
+.footer-menu ol{
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ol li{
+    float: left;
+    list-style: none;
+}
+.footer-menu ol li a{
+    font-weight: 500;
+    color: #636363;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.social-menu{
+    width: 50%;
+    float: left;
+}
+.social-menu ol{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.social-menu ol li{
+    list-style: none;
+    display: inline-block;
+}
+.social-menu ol li a{
+    color: #636363;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+    font-size: 16px;
+    display: inline-block;
+}
